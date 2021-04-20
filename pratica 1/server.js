@@ -1,6 +1,5 @@
 const http = require("http");
-http
-  .createServer((req, res) => {
+http.createServer((req, res) => {
     // * Cliente (req)==>  "Quero os produtos"
     // ! Servidor <==(req) "Quero os produtos"
     // ! Servidor ==>(res) "Aqui estão os produtos"
